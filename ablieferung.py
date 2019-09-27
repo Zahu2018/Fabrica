@@ -7,7 +7,6 @@ from openpyxl import load_workbook
 'Copyright': '',
 'Credits': '',
 'Date': '07.08.2019',
-'Deprecated': '',
 'Description': 'Face o copia a fisierului ABLIEFERUNG VALENTI pentru raport cu noile date',
 'Last Modification': '27.09.2019',
 'Licence': '',
