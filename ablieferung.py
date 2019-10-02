@@ -7,6 +7,7 @@ from openpyxl import load_workbook
 'Copyright': '',
 'Credits': '',
 'Date': '07.08.2019',
+'Deprecated': '',
 'Description': 'Face o copia a fisierului ABLIEFERUNG VALENTI pentru raport cu noile date',
 'Last Modification': '27.09.2019',
 'Licence': '',
@@ -53,7 +54,7 @@ def meniu(data):
     if x == '1':
         creeaza_ablieferung()
     elif x == '0':
-        exit()
+        exit(0)
     else:
         print("Ai apasat tasta '{}'. Te rog sa apesi 0 sau 1".format(x))
         meniu(data=0)
