@@ -1,0 +1,39 @@
+ I. ZILNIC
+II. LUNAR
+
+ I. ZILNIC
+    1. Inregistrezi zep:
+        * Salvezi din "Feinplanung.xlsx" ZEP ca si "data aviz.csv"
+        * Rulezi: "scrie_automat_in_fm.py" -> alegi ZEP -> ...
+    2. Inregistrezi SERAFIL atunci cand vine:
+        * Rulezi: "scrie_manual_in_fm.pyw" > Open > Selecteaza
+          folderul "Fise_Magazie" > ...
+
+II. LUNAR
+    1. Fa centralizator [DIN FOLDERUL PROGRAM]
+        a).[] Rulezi: centralizeaza_zepuri.py; inchide GUI
+        b).[] Fa pivot table in centralizator.csv; save as: .ods
+        c).[] Corectează denumirile materialelor; re-fa tabel pivotant
+        d).[] Salveaza sheet corectat ca centralizator_x.csv
+        e).[] Rulezi: stocuri_3.py pt. centralizator_x.csv => stocuri-centralizator.csv; corecteaza din nou den mat
+        f).[] Pune rezultatele impreuna, compara, corecteaza
+        g).[] Se scade de obicei din ce rezulta din stocuri_3.py cu exceptia
+            SERAFIL si FORELL (stocuri_centralizator.csv)
+    2. Scade centralizator_lunar.pyw
+        a).[] Ruleazi: scade_automat_un_cfl.py (stocuri_centralizator.csv dupa ce a fost inlocuti toate serafil sau forell)
+        b).[] Se corecteaza ce a ramas pe dinafara
+
+    3.  a).[] Deschizi fiecare zep si adaugi pe linia cu materiale: (copiaza 3 spatii inainte de Plan)
+           Plan	  Block	 Material          Perechi
+        b).[] Copiezi programul 'pregatire_printare_flc_2.py' in dosarul cu luna respectiva si il rulezi => rezultat.csv
+        c).[] Aranjezi rezultat.csv pt printat:
+            - deschizi: rezultat.csv si salvezi ca rezultat.ods
+            - randurile: Plan, Block, Material aliniere pe dreapta + Bold + Gray (background)
+            - Fisa limita consum: 14, Bold, Liberation Sans
+            - Format > Page > Sheet > [] Zero value (unchecked)
+            - View > Page Break: potriveste foile
+        
+        
+
+    
+
