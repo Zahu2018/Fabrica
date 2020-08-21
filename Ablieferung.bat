@@ -1,1 +1,0 @@
-python ablieferung.py
